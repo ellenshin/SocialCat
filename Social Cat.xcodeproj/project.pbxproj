@@ -12,6 +12,22 @@
 		332BE8431D22265C00FC4B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8411D22265C00FC4B74 /* Main.storyboard */; };
 		332BE8451D22265C00FC4B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8441D22265C00FC4B74 /* Assets.xcassets */; };
 		332BE8481D22265C00FC4B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8461D22265C00FC4B74 /* LaunchScreen.storyboard */; };
+		332BE8571D2226B300FC4B74 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8531D2226B300FC4B74 /* NotoSans-Bold.ttf */; };
+		332BE8581D2226B300FC4B74 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8541D2226B300FC4B74 /* NotoSans-BoldItalic.ttf */; };
+		332BE8591D2226B300FC4B74 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8551D2226B300FC4B74 /* NotoSans-Italic.ttf */; };
+		332BE85A1D2226B300FC4B74 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332BE8561D2226B300FC4B74 /* NotoSans-Regular.ttf */; };
+		332BE85C1D222A0200FC4B74 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BE85B1D222A0200FC4B74 /* MaterialView.swift */; };
+		332BE85F1D222A8500FC4B74 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BE85E1D222A8500FC4B74 /* Constants.swift */; };
+		332BE8611D22342300FC4B74 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BE8601D22342300FC4B74 /* MaterialButton.swift */; };
+		332BE8631D2238EE00FC4B74 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332BE8621D2238EE00FC4B74 /* MaterialTextField.swift */; };
+		338C6E991D2375B0005B2C07 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6E981D2375B0005B2C07 /* FeedVC.swift */; };
+		338C6E9B1D237656005B2C07 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6E9A1D237656005B2C07 /* PostCell.swift */; };
+		338C6E9D1D23A639005B2C07 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338C6E9C1D23A639005B2C07 /* Post.swift */; };
+		339FB6B41D231CD6003EC397 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339FB6B31D231CD6003EC397 /* DataService.swift */; };
+		33EF85DB1D247259000F58D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EF85D81D247259000F58D8 /* Bolts.framework */; };
+		33EF85DC1D247259000F58D8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EF85D91D247259000F58D8 /* FBSDKCoreKit.framework */; };
+		33EF85DD1D247259000F58D8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EF85DA1D247259000F58D8 /* FBSDKLoginKit.framework */; };
+		C8CCE9059F7FE7EA61F4825B /* Pods_Social_Cat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7055490537A46F0D760EA /* Pods_Social_Cat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,24 @@
 		332BE8441D22265C00FC4B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332BE8471D22265C00FC4B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		332BE8491D22265C00FC4B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332BE8531D2226B300FC4B74 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		332BE8541D2226B300FC4B74 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		332BE8551D2226B300FC4B74 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		332BE8561D2226B300FC4B74 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		332BE85B1D222A0200FC4B74 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		332BE85E1D222A8500FC4B74 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		332BE8601D22342300FC4B74 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		332BE8621D2238EE00FC4B74 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		338C6E981D2375B0005B2C07 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		338C6E9A1D237656005B2C07 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		338C6E9C1D23A639005B2C07 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		339FB6B31D231CD6003EC397 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		33EF85D81D247259000F58D8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		33EF85D91D247259000F58D8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		33EF85DA1D247259000F58D8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		42B7055490537A46F0D760EA /* Pods_Social_Cat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Cat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E89FFEFCB394C5B2BFD319F /* Pods-Social Cat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cat/Pods-Social Cat.release.xcconfig"; sourceTree = "<group>"; };
+		D5300640B6963DB37E659C0C /* Pods-Social Cat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Cat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social Cat/Pods-Social Cat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8CCE9059F7FE7EA61F4825B /* Pods_Social_Cat.framework in Frameworks */,
+				33EF85DC1D247259000F58D8 /* FBSDKCoreKit.framework in Frameworks */,
+				33EF85DD1D247259000F58D8 /* FBSDKLoginKit.framework in Frameworks */,
+				33EF85DB1D247259000F58D8 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CE44F06C649E753F66B7FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B7055490537A46F0D760EA /* Pods_Social_Cat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		332BE8311D22265C00FC4B74 = {
 			isa = PBXGroup;
 			children = (
 				332BE83C1D22265C00FC4B74 /* Social Cat */,
 				332BE83B1D22265C00FC4B74 /* Products */,
+				5185EDC5BE124B1D99D8DB26 /* Pods */,
+				1CE44F06C649E753F66B7FE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,94 @@
 		332BE83C1D22265C00FC4B74 /* Social Cat */ = {
 			isa = PBXGroup;
 			children = (
+				339FB6B21D231CBA003EC397 /* Services */,
+				332BE8641D23095300FC4B74 /* Frameworks */,
+				332BE85D1D222A7A00FC4B74 /* Util */,
+				332BE8521D22267D00FC4B74 /* Resource */,
+				332BE8511D22267900FC4B74 /* Model */,
+				332BE8501D22267500FC4B74 /* View */,
+				332BE84F1D22266A00FC4B74 /* Controller */,
 				332BE83D1D22265C00FC4B74 /* AppDelegate.swift */,
-				332BE83F1D22265C00FC4B74 /* ViewController.swift */,
 				332BE8411D22265C00FC4B74 /* Main.storyboard */,
 				332BE8441D22265C00FC4B74 /* Assets.xcassets */,
 				332BE8461D22265C00FC4B74 /* LaunchScreen.storyboard */,
 				332BE8491D22265C00FC4B74 /* Info.plist */,
 			);
 			path = "Social Cat";
+			sourceTree = "<group>";
+		};
+		332BE84F1D22266A00FC4B74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				332BE83F1D22265C00FC4B74 /* ViewController.swift */,
+				338C6E981D2375B0005B2C07 /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		332BE8501D22267500FC4B74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				332BE85B1D222A0200FC4B74 /* MaterialView.swift */,
+				332BE8601D22342300FC4B74 /* MaterialButton.swift */,
+				332BE8621D2238EE00FC4B74 /* MaterialTextField.swift */,
+				338C6E9A1D237656005B2C07 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		332BE8511D22267900FC4B74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				338C6E9C1D23A639005B2C07 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		332BE8521D22267D00FC4B74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				332BE8531D2226B300FC4B74 /* NotoSans-Bold.ttf */,
+				332BE8541D2226B300FC4B74 /* NotoSans-BoldItalic.ttf */,
+				332BE8551D2226B300FC4B74 /* NotoSans-Italic.ttf */,
+				332BE8561D2226B300FC4B74 /* NotoSans-Regular.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		332BE85D1D222A7A00FC4B74 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				332BE85E1D222A8500FC4B74 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		332BE8641D23095300FC4B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33EF85D81D247259000F58D8 /* Bolts.framework */,
+				33EF85D91D247259000F58D8 /* FBSDKCoreKit.framework */,
+				33EF85DA1D247259000F58D8 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339FB6B21D231CBA003EC397 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				339FB6B31D231CD6003EC397 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5185EDC5BE124B1D99D8DB26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5300640B6963DB37E659C0C /* Pods-Social Cat.debug.xcconfig */,
+				8E89FFEFCB394C5B2BFD319F /* Pods-Social Cat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 332BE84C1D22265C00FC4B74 /* Build configuration list for PBXNativeTarget "Social Cat" */;
 			buildPhases = (
+				27F1DB376D6CCE69E3A3787D /* [CP] Check Pods Manifest.lock */,
 				332BE8361D22265C00FC4B74 /* Sources */,
 				332BE8371D22265C00FC4B74 /* Frameworks */,
 				332BE8381D22265C00FC4B74 /* Resources */,
+				67430818620F041B3A263698 /* [CP] Embed Pods Frameworks */,
+				3948301094669CE21331A184 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +227,7 @@
 				TargetAttributes = {
 					332BE8391D22265C00FC4B74 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2NB2S647M7;
 					};
 				};
 			};
@@ -122,21 +254,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332BE8571D2226B300FC4B74 /* NotoSans-Bold.ttf in Resources */,
 				332BE8481D22265C00FC4B74 /* LaunchScreen.storyboard in Resources */,
+				332BE8581D2226B300FC4B74 /* NotoSans-BoldItalic.ttf in Resources */,
+				332BE8591D2226B300FC4B74 /* NotoSans-Italic.ttf in Resources */,
 				332BE8451D22265C00FC4B74 /* Assets.xcassets in Resources */,
 				332BE8431D22265C00FC4B74 /* Main.storyboard in Resources */,
+				332BE85A1D2226B300FC4B74 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F1DB376D6CCE69E3A3787D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3948301094669CE21331A184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Cat/Pods-Social Cat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67430818620F041B3A263698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social Cat/Pods-Social Cat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		332BE8361D22265C00FC4B74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332BE8631D2238EE00FC4B74 /* MaterialTextField.swift in Sources */,
+				339FB6B41D231CD6003EC397 /* DataService.swift in Sources */,
+				332BE85C1D222A0200FC4B74 /* MaterialView.swift in Sources */,
 				332BE8401D22265C00FC4B74 /* ViewController.swift in Sources */,
+				338C6E991D2375B0005B2C07 /* FeedVC.swift in Sources */,
+				338C6E9B1D237656005B2C07 /* PostCell.swift in Sources */,
 				332BE83E1D22265C00FC4B74 /* AppDelegate.swift in Sources */,
+				332BE85F1D222A8500FC4B74 /* Constants.swift in Sources */,
+				332BE8611D22342300FC4B74 /* MaterialButton.swift in Sources */,
+				338C6E9D1D23A639005B2C07 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +439,67 @@
 		};
 		332BE84D1D22265C00FC4B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5300640B6963DB37E659C0C /* Pods-Social Cat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+				);
 				INFOPLIST_FILE = "Social Cat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ellenshin.Social-Cat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Social Cat";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		332BE84E1D22265C00FC4B74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E89FFEFCB394C5B2BFD319F /* Pods-Social Cat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+					"$(PROJECT_DIR)/Social",
+					Cat,
+				);
 				INFOPLIST_FILE = "Social Cat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ellenshin.Social-Cat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Social Cat";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +522,7 @@
 				332BE84E1D22265C00FC4B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
